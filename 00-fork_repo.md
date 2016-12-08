@@ -55,4 +55,4 @@ Here's your first chance to practice this:
 
 What is your favorite [emoji](http://www.emoji-cheat-sheet.com/)?
 
->> :information_desk_person:
+>> :information_desk_person: :see_no_evil:

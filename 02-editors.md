@@ -69,6 +69,11 @@ What terminal editor will you use? How did you make your decision?
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
 
 >> I will use sublime. Since it's popular for new coders, it seemed like a good fit for me.  A useful feature was the ability to use 3rd party plugins, and it seems like there are a lot to choose from.  Some useful keyboard shortcuts:  
-ctrl + k : Cut line  ctrl + f: Find  ctrl + ] : Indent current line.  ctrl + shift + p: open the command palette   But there seem to be a lot of keyboard shortcuts to choose from.  It seems like installing packages is the best way to customize.
+ctrl + k : Cut line 
+ctrl + f: Find 
+ctrl + ] : Indent current line.  
+ctrl + shift + p: open the command palette   
+There are many keyboard shortcuts to choose from.  
+It seems like installing packages is the best way to customize sublime.
 
  

@@ -54,6 +54,6 @@ Did you install Python 2 or 3? Why?
 
 How can you check the version of Python installed if you happen to be on an unfamiliar computer?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> You can type "python -V" into the terminal.
 
  

@@ -9,7 +9,18 @@ tutorial](https://web.archive.org/web/20160708171659/http://cli.learncodethehard
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do, focused on things that are new, interesting, or otherwise worth remembering.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > - ls = list files  
+- pwd = print working directory  
+- cd = change directory  
+- cd ../ = go up one directory  
+- mk dir = make new directory  
+- * = wildcard  
+- mv = move file  
+- rm = remove file  
+- cp = copy directory or file  
+- sort = sorts alphabetically  
+- clear = clears the terminal window
+
 
 ---
 

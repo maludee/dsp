@@ -35,7 +35,14 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > - list files in current directory  
+- list all files in directory  
+- list long format files in table  
+- list files in long format with file sizes using unit suffixes  
+- list files in long format w/ unit suffixes and including files that start with ","  
+- list files sorted by time modified  
+- list files with colorized output, in long format, and with slashes after directory names.  
+
 
 ---
 
@@ -43,7 +50,11 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > - -m displays names as a comma-separated list  
+- -r displays files in reverse order  
+- -R displays subdirectories in addition to file list  
+- -u displays files by access name  
+- -1 displays each entry as a line  
 
 ---
 
@@ -51,7 +62,11 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > xargs is used to execute a command based on output from another command. One example of its use is to create files based on a list of file names. For example: cat list_of_files | xargs touch would do this.  
+
+The syntax is command1 | xargs command2.
+
+
 
  
 

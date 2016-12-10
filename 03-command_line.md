@@ -36,10 +36,10 @@ What do the following commands do:
 `ls -Glp`  
 
 > > - list files in current directory  
-- list all files in directory  
+- list all files in directory including those that start with "." 
 - list long format files in table  
 - list files in long format with file sizes using unit suffixes  
-- list files in long format w/ unit suffixes and including files that start with ","  
+- list files in long format w/ unit suffixes and including files that start with "."  
 - list files sorted by time modified  
 - list files with colorized output, in long format, and with slashes after directory names.  
 
@@ -64,7 +64,7 @@ What does `xargs` do? Give an example of how to use it.
 
 > > xargs is used to execute a command based on output from another command. One example of its use is to create files based on a list of file names. For example: cat list_of_files | xargs touch would do this.  
 
-The syntax is command1 | xargs command2.
+> > The syntax is command1 | xargs command2.
 
 
 

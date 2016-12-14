@@ -52,7 +52,33 @@ Describe Python's `lambda`. What is it, and what is it used for? Give at least o
 
 Explain list comprehensions. Give examples and show equivalents with `map` and `filter`. How do their capabilities compare? Also demonstrate set comprehensions and dictionary comprehensions.
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> List comprehensions are a way to contruct lists in a simple, mathematical way.  
+
+>> _Examples:_  
+
+>> evens = [x * 2 for x in range (1,11)]  
+>> This would return a list of even numbers from 2 to 20.  
+
+>> count = [1, 2, 3, 4, 5, 6, 7, 8, 9]  
+>> map(lambda x: x * 2, count)  
+>> The above would also return a list of even numbers from 2 to 20.  
+
+>> odds = [x for x in range(1,22) if x % 2 != 0]  
+>> This would return a list of odd numbers from 1 to 21.  
+
+>> def multiply(x):  
+>>     return x % 2  
+>> filter(multiply, range(1,22))  
+>> This would return a list of odd numbers from 1 to 21.  
+
+>> _Set and dictionary comprehension examples:_  
+
+>> count = {x for x in range(10)}  
+>> This would return a set with numbers 1 through 10.  
+
+>> The syntax for list comprehensions in dictionaries is {key:value for item in list}  
+>> dictionary = {n: n * 2 for n in range (5)}  
+>> This would return a dictionary with keys going from 1 to 4 and even values from 2 to 8.  
 
 ---
 

@@ -12,7 +12,7 @@ For quick and easy interactive practice with Python, many people enjoy [Codecade
 
 How are Python lists and tuples similar and different? Which will work as keys in dictionaries? Why?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Lists and tuples are both sequences of values. The difference is that lists are dynamic and tuples are immutable. Only tuples will work as keys in dictionaries. This is because tuples can be hashed because their content can't be modified. Dictionaries require that keys provide a hash function to store and look up keys/values. 
 
 ---
 
@@ -20,7 +20,17 @@ How are Python lists and tuples similar and different? Which will work as keys i
 
 How are Python lists and sets similar and different? Give examples of using both. How does performance compare between lists and sets for finding an element. Why?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Lists and sets are similar in that they are both a sequence of values. Their differences:  
+- Sets can't contain duplicates
+- Sets are unordered  
+- Sets can only contain hashable items  
+
+>>Sets are faster for finding an element. Because sets are implemented using hash tables, that means that the position of an object inside a set is recorded and the time it takes to search is the same no matter the size of the set. A list isn't hashable, so the larger the list, the longer it could take to search.  
+
+>>Example of a list: my_list = ['Tom', 'Mary', 'Jonas', 'Tom']  
+>>Example of a set: my_set = {1, 2, 3}  
+
+ 
 
 ---
 
@@ -28,7 +38,13 @@ How are Python lists and sets similar and different? Give examples of using both
 
 Describe Python's `lambda`. What is it, and what is it used for? Give at least one example, including an example of using a `lambda` in the `key` argument to `sorted`.
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> The lambda keyword allows the user to create an anonymous function. Lambda functions are restricted to a single expression. It can be used to pass a function as an argument.  
+
+>> Example:  
+
+>> sorted(['Cat', 'dog', 'antelope', 'zebra']) would return ['Cat', 'antelope', 'dog', 'zebra']  
+>> sorted(['Cat', 'dog', antelope', 'zebra'], key = lambda word: word.lower()) would return ['antelope', 'Cat', 'dog', zebra'] 
+
 
 ---
 

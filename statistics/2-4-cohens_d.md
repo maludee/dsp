@@ -2,6 +2,7 @@
 
 >> I updated the existing code in the summarize function below. The results indicated that the birthweight is higher for other babies vs. first babies. 
 
+```
 def Summarize(live, firsts, others):
     #Print various summary statistics.
 

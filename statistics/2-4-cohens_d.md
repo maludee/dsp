@@ -1,9 +1,9 @@
 [Think Stats Chapter 2 Exercise 4](http://greenteapress.com/thinkstats2/html/thinkstats2003.html#toc24) (Cohen's d)
 
 >> I updated the existing code in the summarize function below. The results indicated that the birthweight is higher for other babies vs. first babies. 
-```
+
 def Summarize(live, firsts, others):
-    """Print various summary statistics."""
+    #Print various summary statistics.
 
     mean = live.prglngth.mean()
     var = live.prglngth.var()
@@ -36,4 +36,4 @@ def Summarize(live, firsts, others):
     m = thinkstats2.CohenEffectSize(firsts.totalwgt_lb, others.totalwgt_lb)
     print('Cohen d', d)
     print('Cohen d', m)
-```
+
